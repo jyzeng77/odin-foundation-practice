@@ -14,8 +14,11 @@
     <ul>
         <li>
             Absolute links, like to
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</a>, 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">Mozilla Developer Network</a>, 
             which is a very good resource for web developers.
+            <!-- Vscode seems to be very upset if I don't add rel="noopener" whenever we set target to open in new tab -->
+             <!-- this is protect my site from reverse tabnapping where the opened site might steal data from our site -->
+              <!-- it prevents the new site from accessing the window object of our site -->
         </li>
         <li>
             Relative links, like to our
