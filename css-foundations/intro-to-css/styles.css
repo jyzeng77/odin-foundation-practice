@@ -42,3 +42,7 @@ div {
 .subsection.header {
     color: blue;
 }
+
+.subsection#preview {
+    color: yellow;
+}
