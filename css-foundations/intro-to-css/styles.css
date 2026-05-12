@@ -12,3 +12,7 @@ div {
 .alert-text {
     color: red;
 }
+
+.special {
+    color: darkred;
+}
