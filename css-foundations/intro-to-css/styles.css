@@ -37,3 +37,8 @@ div {
 .read {
     /* unique declarations here */
 }
+
+/* css selectors can be chained together to be more specific*/
+.subsection.header {
+    color: blue;
+}
