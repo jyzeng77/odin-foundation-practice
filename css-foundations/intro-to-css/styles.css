@@ -2,3 +2,8 @@
 * {
     color:paleturquoise;
 }
+
+/* type / element selectors: selects specific element */
+div {
+    color:white;
+}
