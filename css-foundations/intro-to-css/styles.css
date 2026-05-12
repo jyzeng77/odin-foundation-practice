@@ -1,9 +1,14 @@
 /* universal selector: selects all elements */
 * {
-    color:paleturquoise;
+    color: paleturquoise;
 }
 
 /* type / element selectors: selects specific element */
 div {
-    color:white;
+    color: white;
+}
+
+/* class selector */
+.alert-text {
+    color: red;
 }
