@@ -63,3 +63,10 @@ body {
     font-weight: 900;
     font-size: 90px;
 }
+
+/* it is good practice to define image dimensions so that browser can allocate */
+/* space on-screen while the image is loading */
+#dog {
+    width: 640px;
+    height: 853px;
+}
