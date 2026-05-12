@@ -1,6 +1,6 @@
 /* universal selector: selects all elements */
 * {
-    color: paleturquoise;
+    color: transparent;
 }
 
 /* type / element selectors: selects specific element */
@@ -10,16 +10,16 @@ div {
 
 /* class selector */
 .alert-text {
-    color: red;
+    color: hsl(0, 100%, 50%);
 }
 
 .special {
-    color: darkred;
+    color: #8b0000;
 }
 
 /* id selector */
 #title {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 /* grouping selector */
@@ -51,3 +51,4 @@ div {
 .ancestor .child {
     background-color: aquamarine;
 }
+
