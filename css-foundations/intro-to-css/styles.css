@@ -16,3 +16,8 @@ div {
 .special {
     color: darkred;
 }
+
+/* id selector */
+#title {
+    background-color: red;
+}
