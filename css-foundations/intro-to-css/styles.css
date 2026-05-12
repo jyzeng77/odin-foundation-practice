@@ -1,0 +1,4 @@
+/* universal selector: selects all elements */
+* {
+    color:paleturquoise;
+}
