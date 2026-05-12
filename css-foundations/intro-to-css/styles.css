@@ -46,3 +46,8 @@ div {
 .subsection#preview {
     color: yellow;
 }
+
+/* css can select based on how HTML tags are nested using descendant combinators */
+.ancestor .child {
+    background-color: aquamarine;
+}
