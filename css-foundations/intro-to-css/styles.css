@@ -21,3 +21,19 @@ div {
 #title {
     background-color: red;
 }
+
+/* grouping selector */
+.unread,
+.read {
+    color: white;
+    background-color: black;
+}
+
+/* you can still add unique styles to each individually */
+.unread {
+    /* unique declarations here */
+}
+
+.read {
+    /* unique declarations here */
+}
